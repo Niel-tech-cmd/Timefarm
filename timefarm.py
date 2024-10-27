@@ -86,15 +86,3 @@ if __name__ == "__main__":
     data = main_timefarm(user_input,int(balance_input),key)
     os.system('cls' if os.name == 'nt' else 'clear')
     create_gradient_banner('Done')
-    try :
-        print(Fore.GREEN + Style.BRIGHT + "=== User Information ===")
-        print(Fore.CYAN + f"Email: {data['email']}")
-        print(Fore.MAGENTA + f"Telegram Username: {data['telegram_username']}")
-        print(Fore.BLUE + f"Balance: {data['balance']}") 
-        print(Fore.LIGHTWHITE_EX + f"Clicks: {data['clicks']}")
-        print(Fore.WHITE + f"Max Energy: {data['max_energy']}")
-        print(Fore.GREEN + Style.BRIGHT + f"Created At: {data['createdAt']}")
-        print(Fore.GREEN + Style.BRIGHT + "========================")
-    
-    except:
-        print(Fore.RED + Style.BRIGHT + data['error'])
