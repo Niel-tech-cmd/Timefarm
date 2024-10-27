@@ -7,7 +7,7 @@
 mefarm.git
 ```
  ``` 
- cd wcoin
+ cd timefarm
 ```
  ``` 
  pip install -r requirements.txt
