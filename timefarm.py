@@ -88,7 +88,6 @@ if __name__ == "__main__":
     create_gradient_banner('Done')
     try :
         print(Fore.GREEN + Style.BRIGHT + "=== User Information ===")
-        print(Fore.YELLOW + f"Username: {data['username']}")
         print(Fore.CYAN + f"Email: {data['email']}")
         print(Fore.MAGENTA + f"Telegram Username: {data['telegram_username']}")
         print(Fore.BLUE + f"Balance: {data['balance']}") 
